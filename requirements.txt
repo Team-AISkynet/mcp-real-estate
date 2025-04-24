@@ -1,0 +1,11 @@
+fastapi~=0.115.12
+uvicorn[standard]~=0.34.2
+python-dotenv~=1.1.0
+openai
+requests~=2.32.3
+mcp~=1.6.0
+langchain-openai~=0.3.14
+langchain-mcp-adapters
+pydantic~=2.11.3
+langchain~=0.3.24
+py-trello

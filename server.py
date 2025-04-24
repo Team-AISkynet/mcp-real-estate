@@ -21,8 +21,8 @@ mcp = FastMCP("UniversalMCP")
 logger.info("MCP server 'UniversalMCP' initialized")
 
 # 3. Upstream APIs
-properties_url = os.getenv("PROPERTY_URL","http://localhost:8000/get_properties")
-visualise_url= os.getenv("CHART_URL","http://localhost:8000/get_charts")
+properties_url = os.getenv("PROPERTY_URL")
+visualise_url= os.getenv("CHART_URL")
 update_property_api_base = os.getenv("UPDATE_PROPERTY_API_BASE", "https://staging-keplerchat-ysa2.encr.app/api/properties")
 create_property_api_base = os.getenv("PROPERTY_API_BASE", "https://staging-keplerchat-ysa2.encr.app/api/properties")
 HEADERS = {"Content-Type": "application/json"}

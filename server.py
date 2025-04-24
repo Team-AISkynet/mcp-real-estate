@@ -156,8 +156,8 @@ def get_chart(query: str = "") -> str:
 
 
 # 5. Trello tool
-TRELLO_KEY   = os.getenv("TRELLO_KEY")
-TRELLO_TOKEN = os.getenv("TRELLO_TOKEN")
+TRELLO_KEY   = "b6e8a8a9f4ba55ff0fe69665480bd9ac"
+TRELLO_TOKEN = "ATTA7a977a86c8f45116eacf6993656820b80cfa1e3bffa08065a3fb2f0adb5c40d2FF1CD578"
 LIST_ID      = "655211c8d08b8160082cd122"
 
 # @mcp.tool(
